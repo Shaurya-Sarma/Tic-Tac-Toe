@@ -1,0 +1,20 @@
+.scorecard {
+  color: #f9f9f9;
+  position: relative;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 2.4rem;
+  @media only screen and (max-width: 45em) {
+    padding-top: 2rem;
+  }
+}
+
+p {
+  display: inline-block;
+  margin: 0 2rem;
+}
+
+.winning {
+  color: #2dbd64;
+}

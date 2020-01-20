@@ -1,0 +1,33 @@
+.square {
+  width: 100%;
+  height: 100%;
+  font-size: 5rem;
+  color: #fff;
+  border: #212121 solid 3px;
+  border-radius: 0.3rem;
+  transition: all 0.5s;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+}
+
+.square-x {
+  @extend .square;
+  background: linear-gradient(to right, #598bff, #3366ff);
+}
+
+.square-o {
+  @extend .square;
+  background: linear-gradient(to right, #ff708d, #ff3d71);
+}
+
+.square-empty {
+  @extend .square;
+  background: #f9f9f9;
+}
+
+.square-win {
+  @extend .square;
+  background: linear-gradient(to left, #2dbd64, #38ef7d);
+}

@@ -1,0 +1,57 @@
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 12rem);
+}
+
+app-square {
+  height: 12rem;
+}
+
+.title {
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 600;
+  font-size: 6rem;
+  padding: 3rem 0 0 0;
+  @media only screen and (max-width: 45em) {
+    font-size: 5rem;
+    padding: 1.5rem 0;
+  }
+}
+
+.subtitle {
+  color: white;
+  font-weight: 400;
+  font-size: 4rem;
+  padding: 2rem 0 3rem 0;
+  @media only screen and (max-width: 45em) {
+    font-size: 2.6rem;
+  }
+}
+
+button {
+  margin: 2rem;
+  background-color: #8510d8;
+  color: #fff;
+  @media only screen and (max-width: 45em) {
+    margin: 0 1rem 4rem 1rem;
+    font-size: 1.5rem;
+  }
+}
+
+.game-ui {
+  background: #212121;
+  padding: 5rem;
+  height: 100%;
+  text-align: center;
+}
+
+.player-x {
+  font-weight: 750;
+  color: #3366ff;
+}
+
+.player-o {
+  font-weight: 750;
+  color: #ff3d71;
+}

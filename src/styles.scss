@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
+
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+  Setting default browser font-size to 10px
+  Allows for easier convertions
+  IE: 25px/10px = 2.5rem or 250%
+*/
+
+html {
+  font-size: 62.5%; // 16px/10px = 0.625
+
+  @media only screen and (min-width: 112.5em) {
+    font-size: 75%; // 12px/16px = 0.75
+  }
+
+  @media only screen and (max-width: 75em) {
+    font-size: 56.25%; // 9px/16px = 0.5625
+  }
+
+  @media only screen and (max-width: 56.25em) {
+    font-size: 50%; // 8px/16px = 0.50
+  }
+
+  @media only screen and (max-width: 37.5em) {
+    font-size: 43.75%; // 7px/16px = 0.4375
+  }
+
+  @media only screen and (max-width: 28.125em) {
+    font-size: 37.5%; // 6px/16px = 0.3750
+  }
+}
