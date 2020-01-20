@@ -2,7 +2,7 @@
 
 This web application was created by Shaurya Sarma.
 
-Here is a [Live Demo](https://shaurya-sarma.github.io/Tic-Tac-Toe/)
+Here is a [Live Demo](https://shaurya-sarma.github.io/Tic-Tac-Toe/).
 
 ## Angular
 
