@@ -1,6 +1,7 @@
 # Tic-Tac-Toe
 
-This web application was created by Shaurya Sarma.
+This web application is intended to be a local multiplayer Tic-Tac-Toe game.
+It is created by Shaurya Sarma. 
 
 Here is a [Live Demo](https://shaurya-sarma.github.io/Tic-Tac-Toe/).
 
